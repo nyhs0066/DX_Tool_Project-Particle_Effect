@@ -1,0 +1,19 @@
+#HLSL_File_List
+VS	VS_LineObject	../../data/shader/hlsl/VS_LineObject.hlsl
+VS	VS_PNCT_Default	../../data/shader/hlsl/VS_PNCT_Default.hlsl
+VS	VS_PNCT_DepthMapShadow	../../data/shader/hlsl/VS_PNCT_DepthMapShadow.hlsl
+VS	VS_PNCTIW_Skinning	../../data/shader/hlsl/VS_PNCTIW_Skinning.hlsl
+VS	VS_PointParticle	../../data/shader/hlsl/VS_PointParticle.hlsl
+
+PS	PS_LineObject	../../data/shader/hlsl/PS_LineObject.hlsl
+PS	PS_PNCT_AlphaRemove	../../data/shader/hlsl/PS_PNCT_AlphaRemove.hlsl
+PS	PS_PNCT_DepthMapShadow	../../data/shader/hlsl/PS_PNCT_DepthMapShadow.hlsl
+PS	PS_PNCT_NoTex	../../data/shader/hlsl/PS_PNCT_NoTex.hlsl
+PS	PS_PNCT_TexDefault	../../data/shader/hlsl/PS_PNCT_TexDefault.hlsl
+PS	PS_PNCT_TexVColor	../../data/shader/hlsl/PS_PNCT_TexVColor.hlsl
+PS	PS_PointParticle_Alphablend	../../data/shader/hlsl/PS_PointParticle_Alphablend.hlsl
+PS	PS_PointParticle_Alphatest	../../data/shader/hlsl/PS_PointParticle_Alphatest.hlsl
+PS	PS_PointParticle_Dualsource	../../data/shader/hlsl/PS_PointParticle_Dualsource.hlsl
+
+GS	GS_PointParticle	../../data/shader/hlsl/GS_PointParticle.hlsl
+#END

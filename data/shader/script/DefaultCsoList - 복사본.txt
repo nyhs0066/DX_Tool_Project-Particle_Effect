@@ -1,0 +1,19 @@
+#cso_File_List
+VS	VS_LineObject	../../data/shader/cso/VS_LineObject.cso
+VS	VS_PNCT_Default	../../data/shader/cso/VS_PNCT_Default.cso
+VS	VS_PNCT_DepthMapShadow	../../data/shader/cso/VS_PNCT_DepthMapShadow.cso
+VS	VS_PNCTIW_Skinning	../../data/shader/cso/VS_PNCTIW_Skinning.cso
+VS	VS_PointParticle	../../data/shader/cso/VS_PointParticle.cso
+
+PS	PS_LineObject	../../data/shader/cso/PS_LineObject.cso
+PS	PS_PNCT_AlphaRemove	../../data/shader/cso/PS_PNCT_AlphaRemove.cso
+PS	PS_PNCT_DepthMapShadow	../../data/shader/cso/PS_PNCT_DepthMapShadow.cso
+PS	PS_PNCT_NoTex	../../data/shader/cso/PS_PNCT_NoTex.cso
+PS	PS_PNCT_TexDefault	../../data/shader/cso/PS_PNCT_TexDefault.cso
+PS	PS_PNCT_TexVColor	../../data/shader/cso/PS_PNCT_TexVColor.cso
+PS	PS_PointParticle_Alphablend	../../data/shader/cso/PS_PointParticle_Alphablend.cso
+PS	PS_PointParticle_Alphatest	../../data/shader/cso/PS_PointParticle_Alphatest.cso
+PS	PS_PointParticle_Dualsource	../../data/shader/cso/PS_PointParticle_Dualsource.cso
+
+GS	GS_PointParticle	../../data/shader/cso/GS_PointParticle.cso
+#END

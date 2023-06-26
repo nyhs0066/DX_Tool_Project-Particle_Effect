@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Test shader">
+      <UniqueIdentifier>{c3bb1619-370c-4f15-8d41-050d83b082d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBXLoader">
+      <UniqueIdentifier>{c3f19aa2-a15d-47e1-b6b2-f45152b14987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI">
+      <UniqueIdentifier>{8c0a9d4c-504d-4146-8b63-f04fe5c9be6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI\소스 파일">
+      <UniqueIdentifier>{9df18694-2e73-4574-9626-d597eb640b02}</UniqueIdentifier>
+      <Extensions>cpp;</Extensions>
+    </Filter>
+    <Filter Include="IMGUI\헤더 파일">
+      <UniqueIdentifier>{4b203382-2445-417c-ba11-2c232ca55b14}</UniqueIdentifier>
+      <Extensions>h;</Extensions>
+    </Filter>
+    <Filter Include="리소스 매니저">
+      <UniqueIdentifier>{8a4e4588-2ba8-4289-a2c1-0d8f11414fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 매니저\소스 파일">
+      <UniqueIdentifier>{06d08a86-cb4f-4a9f-b1fb-85aefeb9934e}</UniqueIdentifier>
+      <Extensions>c;cpp;</Extensions>
+    </Filter>
+    <Filter Include="리소스 매니저\헤더 파일">
+      <UniqueIdentifier>{ba5985af-1668-471a-b055-f9c79a22e861}</UniqueIdentifier>
+      <Extensions>h;hpp;</Extensions>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{3d75ed55-a2b4-4977-aef7-e4ed2b53237e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\Layout">
+      <UniqueIdentifier>{49858795-0d5b-4d53-8f47-43923e3b83bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cso">
+      <UniqueIdentifier>{dae5d9e4-9721-4cc8-b8fa-751e7fade618}</UniqueIdentifier>
+      <Extensions>cso;</Extensions>
+    </Filter>
+    <Filter Include="cso\debug">
+      <UniqueIdentifier>{51b0be9a-e20b-403e-b4e9-0f91517dbd5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="기초 구조">
+      <UniqueIdentifier>{c67d9e74-ca01-4fd6-b44b-35b5e8611816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="기초 구조\소스 파일">
+      <UniqueIdentifier>{a6db3dcc-aee3-4130-8c20-77dc706d5b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="기초 구조\헤더 파일">
+      <UniqueIdentifier>{2b926881-cde0-4743-b6a8-655495e5f80c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{4a33e6cb-6b9b-4657-b252-6dba1a755dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="수학">
+      <UniqueIdentifier>{151002e2-6fbd-41bd-a469-5a89ad197830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="파일 입출력">
+      <UniqueIdentifier>{8f2af451-b9fe-4428-b9c0-e563d9705937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{30088e8b-c4b3-43a5-b519-e34f69f34ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\소스 파일">
+      <UniqueIdentifier>{b8cc453a-a469-4774-8eaf-82e09da430ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\헤더 파일">
+      <UniqueIdentifier>{cb1e16b0-7ef2-4de7-aa7c-1d029d024071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="미 분류 소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="미 분류 헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Curve">
+      <UniqueIdentifier>{a8152cb2-2519-47e6-8715-8393dd9876dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{d1231caf-5eb7-48d4-9706-5ae516d9e1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI\Addon">
+      <UniqueIdentifier>{30a1c131-bfc7-4daf-9c18-c56b6affda04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPGCTextRenderer.h">
+      <Filter>미 분류 헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPVector.h">
+      <Filter>수학</Filter>
+    </ClInclude>
+    <ClInclude Include="CPMatrix.h">
+      <Filter>수학</Filter>
+    </ClInclude>
+    <ClInclude Include="CPRSMaterial.h">
+      <Filter>미 분류 헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPRNGenerator.h">
+      <Filter>미 분류 헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>IMGUI\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>IMGUI\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_dx11.h">
+      <Filter>IMGUI\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_win32.h">
+      <Filter>IMGUI\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>IMGUI\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_rectpack.h">
+      <Filter>IMGUI\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_textedit.h">
+      <Filter>IMGUI\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_truetype.h">
+      <Filter>IMGUI\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCMap.h">
+      <Filter>미 분류 헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCSpacePartition.h">
+      <Filter>미 분류 헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCShaderManager.h">
+      <Filter>리소스 매니저\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCSoundManager.h">
+      <Filter>리소스 매니저\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCSpriteManager.h">
+      <Filter>리소스 매니저\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCTextureManager.h">
+      <Filter>리소스 매니저\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCObject.h">
+      <Filter>기초 구조\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPRSShape.h">
+      <Filter>기초 구조\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPRSVertex.h">
+      <Filter>기초 구조\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCIMGUIModule.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCParticleSystem.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CPRSPaticle.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCMathWrap.h">
+      <Filter>수학</Filter>
+    </ClInclude>
+    <ClInclude Include="CPRSBaseStruct.h">
+      <Filter>기초 구조\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCFileIO.h">
+      <Filter>파일 입출력</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGameCore.h">
+      <Filter>Core\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCCamera.h">
+      <Filter>Core\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCDxDevice.h">
+      <Filter>Core\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCDxStateManager.h">
+      <Filter>Core\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCInput.h">
+      <Filter>Core\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCRenderTarget.h">
+      <Filter>Core\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCStd.h">
+      <Filter>Core\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCTimer.h">
+      <Filter>Core\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCWindow.h">
+      <Filter>Core\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPTempCode.h">
+      <Filter>미 분류 헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCCurve.h">
+      <Filter>Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCLog.h">
+      <Filter>미 분류 헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCCollision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCFBXLoader.h">
+      <Filter>FBXLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCFbxStruct.h">
+      <Filter>FBXLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="CPRSMeshManager.h">
+      <Filter>리소스 매니저\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCBVRender.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCEvent.h">
+      <Filter>미 분류 헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\dirent.h">
+      <Filter>IMGUI\Addon</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\ImGuiFileDialog.h">
+      <Filter>IMGUI\Addon</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\ImGuiFileDialogConfig.h">
+      <Filter>IMGUI\Addon</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCEffectManager.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGCEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPGCTextRenderer.cpp">
+      <Filter>미 분류 소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPVector.cpp">
+      <Filter>수학</Filter>
+    </ClCompile>
+    <ClCompile Include="CPMatrix.cpp">
+      <Filter>수학</Filter>
+    </ClCompile>
+    <ClCompile Include="CPRSMaterial.cpp">
+      <Filter>미 분류 소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPRNGenerator.cpp">
+      <Filter>미 분류 소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>IMGUI\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_demo.cpp">
+      <Filter>IMGUI\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>IMGUI\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_dx11.cpp">
+      <Filter>IMGUI\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_win32.cpp">
+      <Filter>IMGUI\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_tables.cpp">
+      <Filter>IMGUI\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_widgets.cpp">
+      <Filter>IMGUI\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCSpacePartition.cpp">
+      <Filter>미 분류 소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCShaderManager.cpp">
+      <Filter>리소스 매니저\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCSoundManager.cpp">
+      <Filter>리소스 매니저\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCSpriteManager.cpp">
+      <Filter>리소스 매니저\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCTextureManager.cpp">
+      <Filter>리소스 매니저\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCObject.cpp">
+      <Filter>기초 구조\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPRSShape.cpp">
+      <Filter>기초 구조\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPRSVertex.cpp">
+      <Filter>기초 구조\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCIMGUIModule.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCParticleSystem.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CPRSPaticle.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCMathWrap.cpp">
+      <Filter>수학</Filter>
+    </ClCompile>
+    <ClCompile Include="CPRSBaseStruct.cpp">
+      <Filter>기초 구조\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCFileIO.cpp">
+      <Filter>파일 입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGameCore.cpp">
+      <Filter>Core\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCCamera.cpp">
+      <Filter>Core\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCDxDevice.cpp">
+      <Filter>Core\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCDxStateManager.cpp">
+      <Filter>Core\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCDxStatePreset.cpp">
+      <Filter>Core\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCInput.cpp">
+      <Filter>Core\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCRenderTarget.cpp">
+      <Filter>Core\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCTimer.cpp">
+      <Filter>Core\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCWindow.cpp">
+      <Filter>Core\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPTempCode.cpp">
+      <Filter>미 분류 소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCMap.cpp">
+      <Filter>미 분류 소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCCurve.cpp">
+      <Filter>Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCLog.cpp">
+      <Filter>미 분류 소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCCollision.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCFBXLoader.cpp">
+      <Filter>FBXLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="CPRSMeshManager.cpp">
+      <Filter>리소스 매니저\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCEvent.cpp">
+      <Filter>미 분류 소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\ImGuiFileDialog.cpp">
+      <Filter>IMGUI\Addon</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCEffectManager.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGCEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\data\shader\test\Test_SO_IO.hlsl">
+      <Filter>Test shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\test\Test_PBR.hlsl">
+      <Filter>Test shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\GS_PointParticle.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PointParticle_Alphablend.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PointParticle_Alphatest.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PointParticle_Dualsource.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\VS_PointParticle.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\VS_PNCT_Default.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PNCT_TexDefault.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PNCT_AlphaRemove.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PNCT_DepthMapShadow.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\VS_PNCTIW_Skinning.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PNCT_TexVColor.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PNCT_NoTex.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_LineObject.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\VS_LineObject.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\VS_PNCT_DepthMapShadow.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\layout\VL_PC.hlsl">
+      <Filter>HLSL\Layout</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\layout\VL_PNCT.hlsl">
+      <Filter>HLSL\Layout</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\layout\VL_PNCTIW.hlsl">
+      <Filter>HLSL\Layout</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\layout\VL_POINTPS.hlsl">
+      <Filter>HLSL\Layout</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_PNCT_Light.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PNCT_NoTexWithLight.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PNCT_OutlineNoTex.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PNCT_OutlineTexVColor.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\GS_ParticleTrail.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PNCT_RimTrail.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\VS_DefaultMRTQuad.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_DefaultMRTQuad.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PointParticle_Alphablend_UsedOnTool.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PointParticle_Alphatest_UsedOnTool.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PointParticle_Dualsource_UsedOnTool.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\data\shader\hlsl\PS_PNCT_ColorStencil.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\data\shader\cso\GS_PointParticle.cso">
+      <Filter>cso\debug</Filter>
+    </None>
+    <None Include="..\..\data\shader\cso\PS_LineObject.cso">
+      <Filter>cso\debug</Filter>
+    </None>
+    <None Include="..\..\data\shader\cso\PS_PNCT_AlphaRemove.cso">
+      <Filter>cso\debug</Filter>
+    </None>
+    <None Include="..\..\data\shader\cso\PS_PNCT_DepthMapShadow.cso">
+      <Filter>cso\debug</Filter>
+    </None>
+    <None Include="..\..\data\shader\cso\PS_PNCT_NoTex.cso">
+      <Filter>cso\debug</Filter>
+    </None>
+    <None Include="..\..\data\shader\cso\PS_PNCT_TexDefault.cso">
+      <Filter>cso\debug</Filter>
+    </None>
+    <None Include="..\..\data\shader\cso\PS_PNCT_TexVColor.cso">
+      <Filter>cso\debug</Filter>
+    </None>
+    <None Include="..\..\data\shader\cso\PS_PointParticle_Alphablend.cso">
+      <Filter>cso\debug</Filter>
+    </None>
+    <None Include="..\..\data\shader\cso\PS_PointParticle_Alphatest.cso">
+      <Filter>cso\debug</Filter>
+    </None>
+    <None Include="..\..\data\shader\cso\PS_PointParticle_Dualsource.cso">
+      <Filter>cso\debug</Filter>
+    </None>
+    <None Include="..\..\data\shader\cso\VS_LineObject.cso">
+      <Filter>cso\debug</Filter>
+    </None>
+    <None Include="..\..\data\shader\cso\VS_PNCT_Default.cso">
+      <Filter>cso\debug</Filter>
+    </None>
+    <None Include="..\..\data\shader\cso\VS_PNCT_DepthMapShadow.cso">
+      <Filter>cso\debug</Filter>
+    </None>
+    <None Include="..\..\data\shader\cso\VS_PNCTIW_Skinning.cso">
+      <Filter>cso\debug</Filter>
+    </None>
+    <None Include="..\..\data\shader\cso\VS_PointParticle.cso">
+      <Filter>cso\debug</Filter>
+    </None>
+  </ItemGroup>
+</Project>

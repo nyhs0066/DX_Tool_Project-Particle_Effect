@@ -1,0 +1,7 @@
+#HLSL File List
+VS ../../data/shader/hlsl/VS_PointParticle.hlsl
+#END
+
+#CSO File List
+VS ../../data/shader/hlsl/VS_PointParticle.cso
+#END

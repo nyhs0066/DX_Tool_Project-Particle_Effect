@@ -1,0 +1,59 @@
+#UI_Sprite
+test_UI_set 1
+path 		../../data/ui/
+extension	 	.png
+test_plus 4
+UI_plus_disable
+UI_plus_normal
+UI_plus_push
+UI_plus_hover
+test_bar 2
+UI_charge_bar_empty
+UI_charge_bar_full
+#END
+test_play 0 4 ../../data/ui/Pixel_Art_Buttons.png
+448 0 64 64
+256 0 64 64
+384 0 64 64
+320 0 64 64
+test_setting 0 4 ../../data/ui/Pixel_Art_Buttons.png
+192 0 64 64
+0 0 64 64
+128 0 64 64
+64 0 64 64
+test_back_title 0 4 ../../data/ui/Pixel_Art_Buttons.png
+448 128 64 64
+256 128 64 64
+384 128 64 64
+320 128 64 64
+test_expand 0 4 ../../data/ui/Pixel_Art_Buttons.png
+192 192 64 64
+0 192 64 64
+128 192 64 64
+64 192 64 64
+test_attack_up 0 4 ../../data/ui/Pixel_Art_Buttons.png
+192 64 64 64
+0 64 64 64
+128 64 64 64
+64 64 64 64
+test_attackspeed_up 0 4 ../../data/ui/Pixel_Art_Buttons.png
+448 64 64 64
+256 64 64 64
+384 64 64 64
+320 64 64 64
+test_health_regen 0 4 ../../data/ui/Pixel_Art_Buttons.png
+192 128 64 64
+0 128 64 64
+128 128 64 64
+64 128 64 64
+#END
+
+//UI버튼은 순서대로 다음의 상태를 나타낸다.
+//0 : deactivated
+//1 : Idle(normal)
+//2 : push
+//3 : hover
+
+//UI바는 다음의 순서대로 텍스처를 갖는다.
+//0 : 비어있음
+//1 : 채워져 있음

@@ -1,0 +1,29 @@
+##CSO_File_List
+VS	VS_DefaultMRTQuad	../../data/shader/cso/VS_DefaultMRTQuad.cso
+VS	VS_LineObject	../../data/shader/cso/VS_LineObject.cso
+VS	VS_PNCTIW_Skinning	../../data/shader/cso/VS_PNCTIW_Skinning.cso
+VS	VS_PNCT_Default	../../data/shader/cso/VS_PNCT_Default.cso
+VS	VS_PNCT_DepthMapShadow	../../data/shader/cso/VS_PNCT_DepthMapShadow.cso
+VS	VS_PointParticle	../../data/shader/cso/VS_PointParticle.cso
+GS	GS_ParticleTrail	../../data/shader/cso/GS_ParticleTrail.cso
+GS	GS_PointParticle	../../data/shader/cso/GS_PointParticle.cso
+PS	PS_DefaultMRTQuad	../../data/shader/cso/PS_DefaultMRTQuad.cso
+PS	PS_LineObject	../../data/shader/cso/PS_LineObject.cso
+PS	PS_PNCT_AlphaRemove	../../data/shader/cso/PS_PNCT_AlphaRemove.cso
+PS	PS_PNCT_ColorStencil	../../data/shader/cso/PS_PNCT_ColorStencil.cso
+PS	PS_PNCT_DepthMapShadow	../../data/shader/cso/PS_PNCT_DepthMapShadow.cso
+PS	PS_PNCT_Light	../../data/shader/cso/PS_PNCT_Light.cso
+PS	PS_PNCT_NoTex	../../data/shader/cso/PS_PNCT_NoTex.cso
+PS	PS_PNCT_NoTexWithLight	../../data/shader/cso/PS_PNCT_NoTexWithLight.cso
+PS	PS_PNCT_OutlineNoTex	../../data/shader/cso/PS_PNCT_OutlineNoTex.cso
+PS	PS_PNCT_OutlineTexVColor	../../data/shader/cso/PS_PNCT_OutlineTexVColor.cso
+PS	PS_PNCT_RimTrail	../../data/shader/cso/PS_PNCT_RimTrail.cso
+PS	PS_PNCT_TexDefault	../../data/shader/cso/PS_PNCT_TexDefault.cso
+PS	PS_PNCT_TexVColor	../../data/shader/cso/PS_PNCT_TexVColor.cso
+PS	PS_PointParticle_Alphablend	../../data/shader/cso/PS_PointParticle_Alphablend.cso
+PS	PS_PointParticle_Alphablend_UsedOnTool	../../data/shader/cso/PS_PointParticle_Alphablend_UsedOnTool.cso
+PS	PS_PointParticle_Alphatest	../../data/shader/cso/PS_PointParticle_Alphatest.cso
+PS	PS_PointParticle_Alphatest_UsedOnTool	../../data/shader/cso/PS_PointParticle_Alphatest_UsedOnTool.cso
+PS	PS_PointParticle_Dualsource	../../data/shader/cso/PS_PointParticle_Dualsource.cso
+PS	PS_PointParticle_Dualsource_UsedOnTool	../../data/shader/cso/PS_PointParticle_Dualsource_UsedOnTool.cso
+#END
